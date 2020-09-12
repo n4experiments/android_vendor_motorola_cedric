@@ -1144,7 +1144,45 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
-    vendor/motorola/cedric/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
+    vendor/motorola/cedric/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_4k_preview_3a.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_4k_video_3a.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_common.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_cpp_hfr_120.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_cpp_hfr_60.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_cpp_liveshot.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_cpp_preview.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_cpp_snapshot.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_cpp_video.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_default_video.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_hfr_120.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_hfr_120_3a.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_hfr_60.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_hfr_60_3a.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_postproc.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_preview.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_snapshot.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_zsl_preview_3a.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_bear_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_bear_zsl_video_3a.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_4k_preview_3a.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_4k_video_3a.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_common.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_cpp_hfr_120.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_cpp_hfr_60.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_cpp_liveshot.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_cpp_preview.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_cpp_snapshot.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_cpp_video.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_default_video.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_hfr_120.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_hfr_120_3a.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_hfr_60.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_hfr_60_3a.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_postproc.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_preview.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_snapshot.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_zsl_preview_3a.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libchromatix_mot_imx258_mono_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_mono_zsl_video_3a.so
 
 PRODUCT_PACKAGES += \
     libbtnv \
